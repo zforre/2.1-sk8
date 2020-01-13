@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-image: url('images/bg.jpg');
+}
+
+.col {
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+  background-color: #B12B32;
+  height: 40px;
+}
+
+.banner {
+  background: url('images/top-image.png') 19% 26%;
+  width: 100%;
+  height: 360px;
+  border: solid 10px #fff;
+}
+
+.article {
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  height: 350px;
+}
+
+.lance, .rodney, .tommy {
+  height: 230px;
+  border: solid 5px #fff;
+}
+
+.tommy {
+height: 570px;
+}
+
+.boards {
+  height: 295px;
+  background-color: #fff;
+}
+
+.form {
+  height: 360px;
+  background-color: #fff;
+}
+
+
+
+.wrapper {
+  margin: 0 auto;
+}
