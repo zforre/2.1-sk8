@@ -10,12 +10,12 @@ body {
   background-image: url('images/bg.jpg');
 }
 
-.col {
+.col, .col-8{
   color: #fff;
   text-align: center;
   margin: 10px;
   background-color: #B12B32;
-  height: 40px;
+
 }
 
 .banner {
@@ -31,25 +31,102 @@ body {
   text-align: left;
   height: 350px;
 }
-
-.lance, .rodney, .tommy {
+/*********************************SK8ERS*/
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  font-weight: bold;
+  font-size: 50px
+}
+.lance, .rodney, .tommy, .steve{
   height: 230px;
   border: solid 5px #fff;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.lance {
+  background: url('images/sk8er-4.png') 50% 50%;
+  width: 100%;
+
+}
+
+.rodney {
+  background: url('images/sk8er-3.png') 50% 50%;
+  width: 100%;
+
 }
 
 .tommy {
-height: 570px;
+  background: url('images/sk8er-2.png') 50% 50%;
+  width: 100%;
+  height: 570px;
+  background-repeat: no-repeat;
 }
 
-.boards {
+.steve {
+  background: url('images/sk8er-1.png') 50% 50%;
+  width: 100%;
+
+}
+/******************************************************BOARDS*/
+.board1, .board2, .board3, .board3, .board4, .board5, .board6, .board7, .board8, .board9, .board10 {
   height: 295px;
-  background-color: #fff;
+  transform: rotate(90deg);
+}
+.board1 {
+  background: url('images/sk8-1.png');
+  }
+
+.board2 {
+  background: url('images/sk8-2.png');
 }
 
+.board3 {
+  background: url('images/sk8-3.png');
+}
+
+.board4 {
+  background: url('images/sk8-4.png');
+}
+
+.board5 {
+  background: url('images/sk8-5.png');
+}
+
+.board6 {
+  background: url('images/sk8-6.png');
+}
+
+.board7 {
+  background: url('images/sk8-7.png');
+}
+
+.board8 {
+  background: url('images/sk8-8.png');
+}
+
+.board9 {
+  background: url('images/sk8-9.png');
+}
+
+.board10 {
+  background: url('images/sk8-10.png');
+}
+/***********************************************************FORM*/
 .form {
   height: 360px;
   background-color: #fff;
+  color: #000;
+  text-align: left;
+  padding: 20px;
 }
+
+
+
+
 
 
 
