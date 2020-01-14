@@ -98,7 +98,7 @@ body {
 
 .steve {
 
-  
+
   overflow: hidden;
 }
 .steve > img {
@@ -109,10 +109,15 @@ body {
 }
 /******************************************************BOARDS*/
 
+.boards {
+  background-color: #fff;
+
+}
 
 .board {
   height: 295px;
   width: 72px;
+  margin: 19px;
 }
 
 .board > img {
