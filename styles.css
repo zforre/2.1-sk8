@@ -13,6 +13,7 @@ body {
 
 .social-media {
   align-items: center;
+  margin-right: 5px;
 }
 .social-media-icon:not(:last-child) {
   margin-right: 5px;
@@ -23,23 +24,24 @@ body {
 
 
 .navigation > p {
-  background-color: red;
+  background-color: #b12b32;
+  color: #fff;
 }
 
-.navigation
+
 
 
 /* .col, .col-4, .col-6, .col-8, .col-12, .col-md, .col-md-2{
   color: #fff;
   text-align: center;
   margin: 10px;
-  /* background-color: #B12B32; */
+  /* background-color: #B12B32; }*/
 
-}
 
-.icons {
+
+/* .icons {
   background-color: #b12b32;
-}
+} */
 
 .banner {
   background: url('images/top-image.png') no-repeat 27% 25%;
@@ -56,13 +58,19 @@ body {
   left: 3%;
   width: 30vw;
 }
-
+/***********************************************************************article*/
 .article {
   background-color: #fff;
   color: #000;
   text-align: left;
   height: 350px;
+  margin-right: 15px;
 }
+
+.article:nth-child(3) {
+  margin-right: 0px;
+}
+
 /*********************************SK8ERS*/
 h1 {
   /* position: absolute; */
