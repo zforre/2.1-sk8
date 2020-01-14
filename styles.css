@@ -1,28 +1,60 @@
 * {
   box-sizing: border-box;
 }
-
 img {
-  width: 100%;
+  width:100%
 }
 
 body {
+  background: linear-gradient rgba(130,130,130,.5),rgba(130,130,130,.5);
   background-image: url('images/bg.jpg');
+  background-repeat: no-repeat;
 }
 
-.col, .col-8{
+.social-media {
+  align-items: center;
+}
+.social-media-icon:not(:last-child) {
+  margin-right: 5px;
+}
+.social-media-icon > i {
+  font-size: 14px;
+}
+
+
+.navigation > p {
+  background-color: red;
+}
+
+.navigation
+
+
+/* .col, .col-4, .col-6, .col-8, .col-12, .col-md, .col-md-2{
   color: #fff;
   text-align: center;
   margin: 10px;
-  background-color: #B12B32;
+  /* background-color: #B12B32; */
 
 }
 
+.icons {
+  background-color: #b12b32;
+}
+
 .banner {
-  background: url('images/top-image.png') 19% 26%;
-  width: 100%;
-  height: 360px;
+  background: url('images/top-image.png') no-repeat 27% 25%;
+  min-height: 300px;
+  height: 20vw;
+  overflow: hidden;
   border: solid 10px #fff;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 3%;
+  width: 30vw;
 }
 
 .article {
@@ -33,7 +65,7 @@ body {
 }
 /*********************************SK8ERS*/
 h1 {
-  position: absolute;
+  /* position: absolute; */
   top: 40%;
   left: 0;
   width: 100%;
@@ -44,7 +76,7 @@ h1 {
   height: 230px;
   border: solid 5px #fff;
   background-repeat: no-repeat;
-  position: relative;
+  /* position: relative; */
 }
 
 .lance {
@@ -72,58 +104,24 @@ h1 {
 
 }
 /******************************************************BOARDS*/
-.board1, .board2, .board3, .board3, .board4, .board5, .board6, .board7, .board8, .board9, .board10 {
+/* .boards {
   height: 295px;
+}
+
+.board > img {
   transform: rotate(90deg);
-}
-.board1 {
-  background: url('images/sk8-1.png');
-  }
+  transform-origin: left-top;
+} */
 
-.board2 {
-  background: url('images/sk8-2.png');
-}
 
-.board3 {
-  background: url('images/sk8-3.png');
-}
-
-.board4 {
-  background: url('images/sk8-4.png');
-}
-
-.board5 {
-  background: url('images/sk8-5.png');
-}
-
-.board6 {
-  background: url('images/sk8-6.png');
-}
-
-.board7 {
-  background: url('images/sk8-7.png');
-}
-
-.board8 {
-  background: url('images/sk8-8.png');
-}
-
-.board9 {
-  background: url('images/sk8-9.png');
-}
-
-.board10 {
-  background: url('images/sk8-10.png');
-}
 /***********************************************************FORM*/
-.form {
+/* .form {
   height: 360px;
   background-color: #fff;
   color: #000;
   text-align: left;
   padding: 20px;
-}
-
+} */
 
 
 
